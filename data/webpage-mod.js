@@ -125,6 +125,7 @@ function injectButtons() {
 					case 'xxx': case 'adult': Category = self.options.prefs.cat_adult; break;
 					case 'music': case 'audio': Category = self.options.prefs.cat_music; break;
 					case 'books': Category = self.options.prefs.cat_reading; break;
+					case 'comic': Category = self.options.prefs.cat_comics; break;
 				}
 				switch (Cat[1]) {
 					case 'anime': Category = self.options.prefs.cat_anime; break;
